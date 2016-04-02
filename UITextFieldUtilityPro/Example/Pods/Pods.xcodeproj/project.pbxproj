@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0633B433ADA38A6DA74E52 /* Pods-UITextFieldUtilityPro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3096C2CB0ACBD42CE2AD2 /* Pods-UITextFieldUtilityPro_Tests-dummy.m */; };
+		2FE8EF79B548E6A4BB8D5C44 /* UITextFieldUtilityPro.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A707CDA1377611AD496AFB /* UITextFieldUtilityPro.bundle */; };
+		46CCBC7944B736278A1ABCCE /* UITextFieldUtilityPro.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95A4F427E71BF0D3B1FB15E4 /* UITextFieldUtilityPro.bundle */; };
+		495DBDC685C41AF61FAACCA0 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5038D3377A0DBDFDB945A3E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m */; };
+		4A36639CF36454D06974D36A /* Pods-UITextFieldUtilityPro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F288904E894FFACEA4F11DA0 /* Pods-UITextFieldUtilityPro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634105194BA55A637441F803 /* Pods-UITextFieldUtilityPro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E91EF6E4C9DABCA5925C09DC /* Pods-UITextFieldUtilityPro_Example-dummy.m */; };
+		7EF614F666F99242B8A819DF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BD2EBE60BB39C64773F58 /* ReplaceMe.swift */; };
+		8598553E81E2F23237E41863 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0BD2EBE60BB39C64773F58 /* ReplaceMe.swift */; };
+		93F6B4DF0839CDCD9077C12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9432EA1E0E8734A7532F62C2 /* Foundation.framework */; };
+		AB3A31B2CD8E23A822AE46C6 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 620EBF75740595347558810B /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF76CD8D8255D7E591B48E0F /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1BF9767E513275DE93899 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m */; };
+		C9FA4CC04D94A84B9B672D77 /* Pods-UITextFieldUtilityPro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6810C8D8FF6A7E98B629A0 /* Pods-UITextFieldUtilityPro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E83161F2C25FBB50B4FEEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9432EA1E0E8734A7532F62C2 /* Foundation.framework */; };
+		DD6541CE32CB080BD15BB5D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9432EA1E0E8734A7532F62C2 /* Foundation.framework */; };
+		E587775D01A40E3745959978 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E3B2194AB5B127324ECBCC /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CC563B17DA83718588912B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9432EA1E0E8734A7532F62C2 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54D665BD8B4D06E7B08A1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3ED3FA239C863718730E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8485FF93CFD75088F9E3B81;
+			remoteInfo = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro";
+		};
+		DD1AE901E19EB694EC5AAB21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3ED3FA239C863718730E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89EE4EFA5B8032867A2D53C;
+			remoteInfo = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro";
+		};
+		ED43F882BD47BD1AFE5E4115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3ED3FA239C863718730E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203121FD94DE92C363F85824;
+			remoteInfo = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro";
+		};
+		FCE88FF5BD23219013CE0F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3ED3FA239C863718730E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7DC4FDAB4C963F70A83A6E;
+			remoteInfo = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F78DB7CDB4B2989389FC1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Info.plist"; sourceTree = "<group>"; };
+		0AE7FB1533FA16DF61055600 /* Pods-UITextFieldUtilityPro_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextFieldUtilityPro_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0AF3096C2CB0ACBD42CE2AD2 /* Pods-UITextFieldUtilityPro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITextFieldUtilityPro_Tests-dummy.m"; sourceTree = "<group>"; };
+		0E5EDC46E69F410FBFE56FAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E3B2194AB5B127324ECBCC /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h"; sourceTree = "<group>"; };
+		262283973F191639B8953FF3 /* Pods-UITextFieldUtilityPro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2DC8A659253C89E2EEACCDF0 /* Pods-UITextFieldUtilityPro_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextFieldUtilityPro_Example-resources.sh"; sourceTree = "<group>"; };
+		33E3A7E2643C91BFCB828E31 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch"; sourceTree = "<group>"; };
+		379E9D3D13F003314482F637 /* Pods_UITextFieldUtilityPro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextFieldUtilityPro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AAE9DDE3CBA5CF9AEA4AC1 /* UITextFieldUtilityPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextFieldUtilityPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB8A1D3850B05F0DF54CB3 /* Pods-UITextFieldUtilityPro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9FC8EEFDBDBCF1872A3C3C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4441128050B25275A490E9A9 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap"; sourceTree = "<group>"; };
+		5D0BD2EBE60BB39C64773F58 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		5D8822FEED3968C34A16E8E5 /* Pods-UITextFieldUtilityPro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITextFieldUtilityPro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		620EBF75740595347558810B /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h"; sourceTree = "<group>"; };
+		66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig"; sourceTree = "<group>"; };
+		66EFBCF9E23B183FEB8D17CA /* Pods-UITextFieldUtilityPro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UITextFieldUtilityPro_Tests.modulemap"; sourceTree = "<group>"; };
+		6C9AD6E77642AC0841145F5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2A5554E2FE02E37C1BF57B /* Pods-UITextFieldUtilityPro_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Example-environment.h"; sourceTree = "<group>"; };
+		73A1BF9767E513275DE93899 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m"; sourceTree = "<group>"; };
+		780F6362DE0677FEBE0BA332 /* Pods-UITextFieldUtilityPro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C04161CB2391698EACEDAA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816A272BDF3A5701B273C3AC /* Pods-UITextFieldUtilityPro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		83B3A30B202ED6CDAF6BC590 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-prefix.pch"; sourceTree = "<group>"; };
+		893DDF5B8684C0362833B9B7 /* Pods-UITextFieldUtilityPro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextFieldUtilityPro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CC0AD26B48EB45034EC2B68 /* UITextFieldUtilityPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITextFieldUtilityPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E203244DA5B709E57E215B /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.modulemap"; sourceTree = "<group>"; };
+		9432EA1E0E8734A7532F62C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95A4F427E71BF0D3B1FB15E4 /* UITextFieldUtilityPro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextFieldUtilityPro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A707CDA1377611AD496AFB /* UITextFieldUtilityPro.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextFieldUtilityPro.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6810C8D8FF6A7E98B629A0 /* Pods-UITextFieldUtilityPro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Example-umbrella.h"; sourceTree = "<group>"; };
+		9FEA3092D3DDCAEEB6288E75 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.xcconfig"; sourceTree = "<group>"; };
+		A5038D3377A0DBDFDB945A3E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m"; sourceTree = "<group>"; };
+		AA5426D25E6615CC47BE583A /* Pods-UITextFieldUtilityPro_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITextFieldUtilityPro_Tests-resources.sh"; sourceTree = "<group>"; };
+		B3EDAE1729727CC6546311F3 /* Pods-UITextFieldUtilityPro_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Tests-environment.h"; sourceTree = "<group>"; };
+		BB9DD66402E8CFEBE789DF45 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.xcconfig"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.xcconfig"; sourceTree = "<group>"; };
+		C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig"; path = "../Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig"; sourceTree = "<group>"; };
+		D19D7C1CBA8A607A360E14B2 /* Pods-UITextFieldUtilityPro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UITextFieldUtilityPro_Example.modulemap"; sourceTree = "<group>"; };
+		D6304349369E7046D41524DE /* Pods-UITextFieldUtilityPro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextFieldUtilityPro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E598FC83B580D5E23389A479 /* Pods-UITextFieldUtilityPro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITextFieldUtilityPro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E91EF6E4C9DABCA5925C09DC /* Pods-UITextFieldUtilityPro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITextFieldUtilityPro_Example-dummy.m"; sourceTree = "<group>"; };
+		F288904E894FFACEA4F11DA0 /* Pods-UITextFieldUtilityPro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITextFieldUtilityPro_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F8AAB0EBC78654F5B7296184 /* Pods_UITextFieldUtilityPro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextFieldUtilityPro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F924AA19F958BC1E2D7014BC /* Pods-UITextFieldUtilityPro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITextFieldUtilityPro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BEB54C9DFB284F6A00399F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CC563B17DA83718588912B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E24ACD20E9E15F986FD4BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F23F197935CAE48093D298B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F6B4DF0839CDCD9077C12A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07F1571F3B5A6BB52F229B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6541CE32CB080BD15BB5D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9ED9A07065519FB5A73C3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA846DF364F47FF6FAAA461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E83161F2C25FBB50B4FEEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019C39E5FC4E164EDF9683BA = {
+			isa = PBXGroup;
+			children = (
+				3D9FC8EEFDBDBCF1872A3C3C /* Podfile */,
+				65795DE23BC3C1C9193B0E6B /* Development Pods */,
+				14C5D16EC34806F03FDF4B54 /* Frameworks */,
+				7DF03E4FFE64B8B08B9F235D /* Products */,
+				8382F3B294800FA2E8FE1055 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		06ADC056F953CC2B4913A902 /* Pods-UITextFieldUtilityPro_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C9AD6E77642AC0841145F5D /* Info.plist */,
+				D19D7C1CBA8A607A360E14B2 /* Pods-UITextFieldUtilityPro_Example.modulemap */,
+				E598FC83B580D5E23389A479 /* Pods-UITextFieldUtilityPro_Example-acknowledgements.markdown */,
+				F924AA19F958BC1E2D7014BC /* Pods-UITextFieldUtilityPro_Example-acknowledgements.plist */,
+				E91EF6E4C9DABCA5925C09DC /* Pods-UITextFieldUtilityPro_Example-dummy.m */,
+				6E2A5554E2FE02E37C1BF57B /* Pods-UITextFieldUtilityPro_Example-environment.h */,
+				893DDF5B8684C0362833B9B7 /* Pods-UITextFieldUtilityPro_Example-frameworks.sh */,
+				2DC8A659253C89E2EEACCDF0 /* Pods-UITextFieldUtilityPro_Example-resources.sh */,
+				9A6810C8D8FF6A7E98B629A0 /* Pods-UITextFieldUtilityPro_Example-umbrella.h */,
+				816A272BDF3A5701B273C3AC /* Pods-UITextFieldUtilityPro_Example.debug.xcconfig */,
+				262283973F191639B8953FF3 /* Pods-UITextFieldUtilityPro_Example.release.xcconfig */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Example";
+			path = "Target Support Files/Pods-UITextFieldUtilityPro_Example";
+			sourceTree = "<group>";
+		};
+		14C5D16EC34806F03FDF4B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5057AC8F2B2A1CD1C710DF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39AD28A61939BD8A536D9841 /* Pods-UITextFieldUtilityPro_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0E5EDC46E69F410FBFE56FAA /* Info.plist */,
+				66EFBCF9E23B183FEB8D17CA /* Pods-UITextFieldUtilityPro_Tests.modulemap */,
+				5D8822FEED3968C34A16E8E5 /* Pods-UITextFieldUtilityPro_Tests-acknowledgements.markdown */,
+				D6304349369E7046D41524DE /* Pods-UITextFieldUtilityPro_Tests-acknowledgements.plist */,
+				0AF3096C2CB0ACBD42CE2AD2 /* Pods-UITextFieldUtilityPro_Tests-dummy.m */,
+				B3EDAE1729727CC6546311F3 /* Pods-UITextFieldUtilityPro_Tests-environment.h */,
+				0AE7FB1533FA16DF61055600 /* Pods-UITextFieldUtilityPro_Tests-frameworks.sh */,
+				AA5426D25E6615CC47BE583A /* Pods-UITextFieldUtilityPro_Tests-resources.sh */,
+				F288904E894FFACEA4F11DA0 /* Pods-UITextFieldUtilityPro_Tests-umbrella.h */,
+				3BEB8A1D3850B05F0DF54CB3 /* Pods-UITextFieldUtilityPro_Tests.debug.xcconfig */,
+				780F6362DE0677FEBE0BA332 /* Pods-UITextFieldUtilityPro_Tests.release.xcconfig */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Tests";
+			path = "Target Support Files/Pods-UITextFieldUtilityPro_Tests";
+			sourceTree = "<group>";
+		};
+		3D5057AC8F2B2A1CD1C710DF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9432EA1E0E8734A7532F62C2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63F88FC6B74DCF3A0CDC89E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				694DE661E569254E33AC964A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		65795DE23BC3C1C9193B0E6B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9400C69FC59F3311F4196CA8 /* UITextFieldUtilityPro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		694DE661E569254E33AC964A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D0BD2EBE60BB39C64773F58 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DF03E4FFE64B8B08B9F235D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379E9D3D13F003314482F637 /* Pods_UITextFieldUtilityPro_Example.framework */,
+				F8AAB0EBC78654F5B7296184 /* Pods_UITextFieldUtilityPro_Tests.framework */,
+				95A4F427E71BF0D3B1FB15E4 /* UITextFieldUtilityPro.bundle */,
+				97A707CDA1377611AD496AFB /* UITextFieldUtilityPro.bundle */,
+				8CC0AD26B48EB45034EC2B68 /* UITextFieldUtilityPro.framework */,
+				38AAE9DDE3CBA5CF9AEA4AC1 /* UITextFieldUtilityPro.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8382F3B294800FA2E8FE1055 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06ADC056F953CC2B4913A902 /* Pods-UITextFieldUtilityPro_Example */,
+				39AD28A61939BD8A536D9841 /* Pods-UITextFieldUtilityPro_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9400C69FC59F3311F4196CA8 /* UITextFieldUtilityPro */ = {
+			isa = PBXGroup;
+			children = (
+				63F88FC6B74DCF3A0CDC89E9 /* Pod */,
+				A441875F79517F3CB90405AF /* Support Files */,
+			);
+			name = UITextFieldUtilityPro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A441875F79517F3CB90405AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C04161CB2391698EACEDAA8 /* Info.plist */,
+				05F78DB7CDB4B2989389FC1F /* Info.plist */,
+				93E203244DA5B709E57E215B /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.modulemap */,
+				9FEA3092D3DDCAEEB6288E75 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.xcconfig */,
+				66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */,
+				73A1BF9767E513275DE93899 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m */,
+				83B3A30B202ED6CDAF6BC590 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-prefix.pch */,
+				22E3B2194AB5B127324ECBCC /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h */,
+				4441128050B25275A490E9A9 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap */,
+				BB9DD66402E8CFEBE789DF45 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.xcconfig */,
+				C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */,
+				A5038D3377A0DBDFDB945A3E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m */,
+				33E3A7E2643C91BFCB828E31 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch */,
+				620EBF75740595347558810B /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01D82B0BA15DA3C65FE18E6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3A31B2CD8E23A822AE46C6 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C5191E8F7FA9DCDF1328BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E587775D01A40E3745959978 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8056A629FE8A7F835BC70E4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A36639CF36454D06974D36A /* Pods-UITextFieldUtilityPro_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE10F05F48F62C0BEC065E5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA4CC04D94A84B9B672D77 /* Pods-UITextFieldUtilityPro_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		203121FD94DE92C363F85824 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14FB3F807CE8B679749556BE /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro" */;
+			buildPhases = (
+				D504DE0DFF2D32284D8D1898 /* Sources */,
+				5E24ACD20E9E15F986FD4BFA /* Frameworks */,
+				3901BB643D0AFDD9FBA00DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			productName = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			productReference = 95A4F427E71BF0D3B1FB15E4 /* UITextFieldUtilityPro.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6C7DC4FDAB4C963F70A83A6E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FFC2B3B38228A54691162D /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro" */;
+			buildPhases = (
+				B60B166140B6977B0AC377CF /* Sources */,
+				55BEB54C9DFB284F6A00399F /* Frameworks */,
+				62671ADBFF36989D346583BF /* Resources */,
+				01D82B0BA15DA3C65FE18E6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A6A9D645D0921F9A8F562F /* PBXTargetDependency */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro";
+			productName = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro";
+			productReference = 8CC0AD26B48EB45034EC2B68 /* UITextFieldUtilityPro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E4DA3FB5CBC77AEE4BC9594 /* Pods-UITextFieldUtilityPro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF80626CC309C5114A7CC81 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example" */;
+			buildPhases = (
+				1E4E765977076A25CD48E0C5 /* Sources */,
+				A07F1571F3B5A6BB52F229B9 /* Frameworks */,
+				EE10F05F48F62C0BEC065E5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEFFD0E86EF0A0198B5C6AD /* PBXTargetDependency */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Example";
+			productName = "Pods-UITextFieldUtilityPro_Example";
+			productReference = 379E9D3D13F003314482F637 /* Pods_UITextFieldUtilityPro_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8485FF93CFD75088F9E3B81 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E93E4670B90D23DFA24F94 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro" */;
+			buildPhases = (
+				43610A79B382695294E05B14 /* Sources */,
+				AD9ED9A07065519FB5A73C3A /* Frameworks */,
+				28130E62B2F4513A93C1F3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			productName = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			productReference = 97A707CDA1377611AD496AFB /* UITextFieldUtilityPro.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E695436FDB010D3AA61208E7 /* Pods-UITextFieldUtilityPro_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8E36D233AA368E7965CE29 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests" */;
+			buildPhases = (
+				241734556791750235A17450 /* Sources */,
+				5F23F197935CAE48093D298B /* Frameworks */,
+				8056A629FE8A7F835BC70E4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D45F86ACA9B4ECDCC974040 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Tests";
+			productName = "Pods-UITextFieldUtilityPro_Tests";
+			productReference = F8AAB0EBC78654F5B7296184 /* Pods_UITextFieldUtilityPro_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E89EE4EFA5B8032867A2D53C /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D911292FCFA40745656DFF /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro" */;
+			buildPhases = (
+				F666D8629287C378B81C0A3F /* Sources */,
+				ECA846DF364F47FF6FAAA461 /* Frameworks */,
+				26ABAB04929722A76D329EBF /* Resources */,
+				76C5191E8F7FA9DCDF1328BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74B45E79EC835B75611FF2D /* PBXTargetDependency */,
+			);
+			name = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro";
+			productName = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro";
+			productReference = 38AAE9DDE3CBA5CF9AEA4AC1 /* UITextFieldUtilityPro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F3ED3FA239C863718730E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C9CC5328E558F3DBD82C2CAB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 019C39E5FC4E164EDF9683BA;
+			productRefGroup = 7DF03E4FFE64B8B08B9F235D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E4DA3FB5CBC77AEE4BC9594 /* Pods-UITextFieldUtilityPro_Example */,
+				E89EE4EFA5B8032867A2D53C /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro */,
+				203121FD94DE92C363F85824 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro */,
+				E695436FDB010D3AA61208E7 /* Pods-UITextFieldUtilityPro_Tests */,
+				6C7DC4FDAB4C963F70A83A6E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro */,
+				C8485FF93CFD75088F9E3B81 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26ABAB04929722A76D329EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CCBC7944B736278A1ABCCE /* UITextFieldUtilityPro.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28130E62B2F4513A93C1F3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3901BB643D0AFDD9FBA00DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62671ADBFF36989D346583BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE8EF79B548E6A4BB8D5C44 /* UITextFieldUtilityPro.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E4E765977076A25CD48E0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634105194BA55A637441F803 /* Pods-UITextFieldUtilityPro_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241734556791750235A17450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0633B433ADA38A6DA74E52 /* Pods-UITextFieldUtilityPro_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43610A79B382695294E05B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B166140B6977B0AC377CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495DBDC685C41AF61FAACCA0 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-dummy.m in Sources */,
+				7EF614F666F99242B8A819DF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D504DE0DFF2D32284D8D1898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F666D8629287C378B81C0A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF76CD8D8255D7E591B48E0F /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-dummy.m in Sources */,
+				8598553E81E2F23237E41863 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D45F86ACA9B4ECDCC974040 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro";
+			target = 6C7DC4FDAB4C963F70A83A6E /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro */;
+			targetProxy = FCE88FF5BD23219013CE0F60 /* PBXContainerItemProxy */;
+		};
+		71A6A9D645D0921F9A8F562F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			target = C8485FF93CFD75088F9E3B81 /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro */;
+			targetProxy = D54D665BD8B4D06E7B08A1A4 /* PBXContainerItemProxy */;
+		};
+		BDEFFD0E86EF0A0198B5C6AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro";
+			target = E89EE4EFA5B8032867A2D53C /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro */;
+			targetProxy = DD1AE901E19EB694EC5AAB21 /* PBXContainerItemProxy */;
+		};
+		F74B45E79EC835B75611FF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro";
+			target = 203121FD94DE92C363F85824 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro */;
+			targetProxy = ED43F882BD47BD1AFE5E4115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A4C6E304998C97F78815AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37481812003F7FF64A4686AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DC1FDB69DEE0B72D6D87D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780F6362DE0677FEBE0BA332 /* Pods-UITextFieldUtilityPro_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests/Pods-UITextFieldUtilityPro_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UITextFieldUtilityPro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66BF8B76AE0781C1474FE996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		698AD59D94917B7EE34A4B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F76114329A4B45FF58AA641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816A272BDF3A5701B273C3AC /* Pods-UITextFieldUtilityPro_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example/Pods-UITextFieldUtilityPro_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UITextFieldUtilityPro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		925D164DB610F3E57CA126E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UITextFieldUtilityPro_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A2C4F1D902AD38C57B1E0A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UITextFieldUtilityPro_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CACF0BF8CB0744D605D6538B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro/Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF3B3F7EEB0C8AE485117144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66351A5EF1657716C623FF78 /* Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UITextFieldUtilityPro_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DBC2762810ADD9B765971F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEB8A1D3850B05F0DF54CB3 /* Pods-UITextFieldUtilityPro_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Tests/Pods-UITextFieldUtilityPro_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UITextFieldUtilityPro_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0215241DE9DADACC25B7CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED51C2B9E9193252CB2B9745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A569E8CFF73315CA7529AE /* Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-UITextFieldUtilityPro_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = UITextFieldUtilityPro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EF530CEB52F08C05FFC02022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262283973F191639B8953FF3 /* Pods-UITextFieldUtilityPro_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-UITextFieldUtilityPro_Example/Pods-UITextFieldUtilityPro_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UITextFieldUtilityPro_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E93E4670B90D23DFA24F94 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-UITextFieldUtilityPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C4F1D902AD38C57B1E0A87 /* Debug */,
+				ED51C2B9E9193252CB2B9745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14FB3F807CE8B679749556BE /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro-UITextFieldUtilityPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925D164DB610F3E57CA126E6 /* Debug */,
+				CF3B3F7EEB0C8AE485117144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D911292FCFA40745656DFF /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example-UITextFieldUtilityPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACF0BF8CB0744D605D6538B /* Debug */,
+				1A4C6E304998C97F78815AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF80626CC309C5114A7CC81 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F76114329A4B45FF58AA641 /* Debug */,
+				EF530CEB52F08C05FFC02022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8E36D233AA368E7965CE29 /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC2762810ADD9B765971F20 /* Debug */,
+				4DC1FDB69DEE0B72D6D87D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FFC2B3B38228A54691162D /* Build configuration list for PBXNativeTarget "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37481812003F7FF64A4686AF /* Debug */,
+				698AD59D94917B7EE34A4B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CC5328E558F3DBD82C2CAB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0215241DE9DADACC25B7CDB /* Debug */,
+				66BF8B76AE0781C1474FE996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F3ED3FA239C863718730E1 /* Project object */;
+}

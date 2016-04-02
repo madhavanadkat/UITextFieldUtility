@@ -1,0 +1,6 @@
+framework module UITextFieldUtilityPro {
+  umbrella header "Pods-UITextFieldUtilityPro_Tests-UITextFieldUtilityPro-umbrella.h"
+
+  export *
+  module * { export * }
+}
